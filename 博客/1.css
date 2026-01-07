@@ -1,0 +1,437 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+     body{
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+     }
+}
+.container{
+    width: 2000px;
+    height: 160%;
+    text-align: center;
+    max-width: 1400px;
+}
+.header{
+    width: 100%;
+    height: 84px;
+    position: sticky;
+    top: 0;
+    left:0;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: rgb(222, 136, 136);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.left{
+    width: 420px ;
+    height:84px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav.left.img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+nav .left h1{
+    font-size: 28px;
+    font-weight: 800;
+    background: linear-gradient(to right, rgb(232, 151, 151), pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav .right{
+    width: 500px;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .right a{
+    color: white;
+    text-decoration: none;
+    transition: all;
+}
+nav .right a:hover{
+     color: red;
+     border-bottom: 2px solid red;
+     padding-bottom: 5px;
+}
+nav .right li:nth-child(1)a{
+     color: red;
+     border-bottom: 2px solid red;
+     padding-bottom: 5px;
+}
+.ok{
+    width: 700px;
+    height: 150px;
+    position: relative;
+    left: 50px ;
+    text-align: center;
+    top: 60px;
+}
+.ko{
+    color: rgb(236, 6, 40);
+}
+.op{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(248, 190, 190);
+}
+.qw img{
+    width: 280px;
+    height:400px;
+    margin-left:620px;
+    margin-top: -100px;
+}
+.qw{
+    left: 300px;
+    position: absolute;
+    text-align: left;
+    width: 200px;
+    height: 100px;
+}
+.btn{
+    display: inline-block;
+    background-color: #165dff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-top: 170px;
+    margin-right: 530px;
+}
+  .social-bar {
+            display: flex;
+            gap: 10px;
+            padding: 30px;
+            background-color: rgb(248, 190, 190);
+            width: fit-content;
+        }
+        .social-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%; 
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #0077b5; 
+            text-decoration: none;
+            transition: background-color 0.3s; 
+        }
+        .social-icon:hover {
+            background-color: #9c5757;
+        }
+        .twitter {
+            color: #1da1f2;
+        }
+        .youtube {
+            color: #ff0000;
+        }
+        .reddit {
+            color: #ff4500;
+        }
+        .pinterest {
+            color: #e60023;
+        }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft Yahei", sans-serif;
+}
+.article-section {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    margin-bottom: 100px;
+    gap: 50px;
+    background-color: rgb(248, 190, 190);
+    width: 100%;
+    top: 50px;
+    padding: 80px;
+}
+.section-title {
+    font-size: 28px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #e63946;
+}
+.article-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 220px;
+    margin-bottom: 50px;
+}
+.article-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+.tag {
+    background-color: #f0f0f0;
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: #666;
+    font-size: 12px;
+}
+.card-title {
+    font-size: 18px;
+    color: #333;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+.card-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.read-more {
+    display: inline-block;
+    font-size: 14px;
+    color: #0066cc;
+    text-decoration: none;
+    padding: 0 20px 20px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+.view-all {
+    padding: 10px 25px;
+    border: 1px solid #0066cc;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #0066cc;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-all:hover {
+    background-color: #0066cc;
+    color: #fff;
+}
+.tech-section {
+    padding: 50px 0;
+    text-align: center;
+    background: rgb(232, 175, 175);
+    position: relative;
+    left: 50%;
+    width: 100%;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #e53935;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tag {
+    padding: 8px 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tag.active {
+    background-color: #4263eb;
+    color: #fff;
+}
+
+.tag:hover:not(.active) {
+    background-color: #e9ecef;
+}
+.blog-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.blog-name {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.blog-desc {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.link-title, .subscribe-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.link-title::after, .subscribe-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #e53935;
+}
+
+.quick-links ul {
+    list-style: none;
+}
+
+.quick-links li {
+    margin-bottom: 10px;
+}
+
+.quick-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+    color: #fff;
+}
+
+.subscribe-desc {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+}
+
+.email-input::placeholder {
+    color: #999;
+}
+
+.subscribe-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e53935;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #c32f2f;
+}
+
+.po{
+    width: 1450px;
+    height: 800px;
+    position: relative;
+    right: 799px;
+}
+.aq{
+    width: 1500px;
+    height: 500px;
+    position: relative;
+    right: 50px;
+}
+.er{
+    position: relative;
+    top: 30px;
+}
+
+        
